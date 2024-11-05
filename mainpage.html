@@ -16,127 +16,134 @@
 
 
     <header class="bg-[#D9CBAE] text-black p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <img src="imgs/logo_f5ed77a0.png" alt="Logo Tierra Media Viajes" class="h-20"> 
+        <div class=" mx-auto flex flex-wrap justify-center items-center">
+            <img src="imgs/logo_f5ed77a0.png" alt="Logo Tierra Media Viajes" class="h-20">
             <nav>
-                <ul class="flex space-x-10 items-center">
+                <ul class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-10 items-center">
                     <li><a href="#" class="hover:underline">Inicio</a></li>
                     <li><a href="#" class="hover:underline">Categorías</a></li>
                     <li><a href="#" class="hover:underline">Sobre Nosotros</a></li>
                     <li><a href="#" class="hover:underline">Contacto</a></li>
                     <li class="flex items-center">
                         <input type="text" placeholder="Buscar artículos..." class="border p-2 w-full rounded">
-                        <button class="bg-[#D9CBAE] text-black p-2 rounded">Buscar</button></li>
+                        <button class="bg-[#D9CBAE] text-black p-2 rounded">Buscar</button>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <div class="bg-[url('/imgs/178589.jpg')] bg-cover bg-center h-screen">
-        <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
-            <h2 class="text-white text-4xl font-bold">Explora la Tierra Media</h2>
+    <div class="bg-[url('/imgs/178589.jpg')] bg-cover bg-center h-screen w-full sm:w-full">
+        <div class="flex items-center justify-center h-full bg-black bg-opacity-50 ">
+            <h2 class="text-white text-4xl font-bold text-center sm:text-xl md:text-6xl">Explora la Tierra Media</h2>
         </div>
-    </section>
-
-    <main class="container mx-auto p-8">
-        <h2 class="text-3xl font-bold mb-6 text-center">Artículos Recientes</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden ">
-                <img src="imgs/hobbiton.jpg" alt="Un Viaje a Hobbiton" class="w-full h-56 object-cover">
-                <div class="p-8">
-                    <h3 class="font-bold text-xl mb-2">Un Viaje a Hobbiton</h3>
-                    <p class="text-gray-600">Descubre el encantador mundo de Hobbiton, la famosa aldea hobbit donde comienza la aventura de "El Señor de los Anillos".</p>
-                    <p class="text-gray-500 text-sm mt-2">Publicado el 1 de noviembre por Pepe</p>
-                    <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
-                </div>
-            </div>
-
-
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl">
-                <img src="imgs/montedestino.jpeg" alt="Senderismo en el Monte del Destino" class="w-full h-56 object-cover">
-                <div class="p-8">
-                    <h3 class="font-bold text-xl mb-2">Senderismo en el Monte del Destino</h3>
-                    <p class="text-gray-600">Acompáñanos en una emocionante caminata hasta la cima del Monte del Destino, un lugar lleno de historia y leyenda.</p>
-                    <p class="text-gray-500 text-sm mt-2">Publicado el 2 de noviembre por Autor</p>
-                    <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl">
-                <img src="imgs/rivendel.jpg" alt="Explorando Rivendel" class="w-full h-56 object-cover">
-                <div class="p-8">
-                    <h3 class="font-bold text-xl mb-2">Explorando Rivendel</h3>
-                    <p class="text-gray-600">Un vistazo a Rivendel, el refugio de los elfos, y las maravillas que ofrece a los visitantes.</p>
-                    <p class="text-gray-500 text-sm mt-2">Publicado el 3 de noviembre por Autor</p>
-                    <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
-                </div>
-            </div>
-
-      
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl">
-                <img src="imgs/LOTR_Misty_mountains_west.jpg" alt="Las Montañas Nubladas" class="w-full h-56 object-cover">
-                <div class="p-8">
-                    <h3 class="font-bold text-xl mb-2">Las Montañas Nubladas</h3>
-                    <p class="text-gray-600">Explora la majestuosa belleza de las Montañas Nubladas, un lugar lleno de misterios y leyendas que rodean a las criaturas que habitan en sus cumbres.</p>
-                    <p class="text-gray-500 text-sm mt-2">Publicado el 4 de noviembre por Autor</p>
-                    <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
-                </div>
-            </div>
-
-
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl">
-                <img src="imgs/Lothlorien.jpeg" alt="La belleza de Lothlórien" class="w-full h-56 object-cover">
-                <div class="p-8">
-                    <h3 class="font-bold text-xl mb-2">La belleza de Lothlórien</h3>
-                    <p class="text-gray-600">Un recorrido por los bosques de Lothlórien, donde la magia de los elfos cobra vida.</p>
-                    <p class="text-gray-500 text-sm mt-2">Publicado el 5 de noviembre por Autor</p>
-                    <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
-                </div>
-            </div>
-
-   
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl">
-                <img src="imgs/senderomuertos.jpg" alt="El Sendero de los Muertos" class="w-full h-56 object-cover">
-                <div class="p-8">
-                    <h3 class="font-bold text-xl mb-2">El Sendero de los Muertos</h3>
-                    <p class="text-gray-600">Un recorrido por el Sendero de los Muertos, un lugar lleno de historia y misterio donde se encuentran los espíritus de los antiguos reyes.</p>
-                    <p class="text-gray-500 text-sm mt-2">Publicado el 7 de noviembre por Autor</p>
-                    <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <footer class="bg-[#D9CBAE] text-black p-4 mt-8">
-        <div class="container mx-auto flex flex-row justify-between items-center">
-            <div id="footer-logo" class="mb-2">
-                <img src="imgs/klipartz.com.png" alt="Logo" class="h-20"> 
-            </div>
-            <div class="text-center">
-                <p class="font-bold">© 2024 Todos los derechos reservados</p>
-                <div class="flex justify-center space-x-4 mt-2">
-                    <a href="https://facebook.com" target="_blank" class="text-black hover:text-gray-700">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://twitter.com" target="_blank" class="text-black hover:text-gray-700">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://instagram.com" target="_blank" class="text-black hover:text-gray-700">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://linkedin.com" target="_blank" class="text-black hover:text-gray-700">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    </div>
     
-    
+        </section>
 
+        <main class="container mx-auto p-8">
+            <h2 class="text-3xl font-bold mb-6 text-center">Artículos Recientes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden ">
+                    <img src="imgs/hobbiton.jpg" alt="Un Viaje a Hobbiton" class="w-full h-56 object-cover">
+                    <div class="p-8">
+                        <h3 class="font-bold text-xl mb-2">Un Viaje a Hobbiton</h3>
+                        <p class="text-gray-600">Descubre el encantador mundo de Hobbiton, la famosa aldea hobbit donde
+                            comienza la aventura de "El Señor de los Anillos".</p>
+                        <p class="text-gray-500 text-sm mt-2">Publicado el 1 de noviembre por Pepe</p>
+                        <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
+                    </div>
+                </div>
+
+
+                <div class="bg-gray rounded-lg shadow-lg overflow-hidden hover:shadow-xl">
+                    <img src="imgs/montedestino.jpeg" alt="Senderismo en el Monte del Destino"
+                        class="w-full h-56 object-cover">
+                    <div class="p-8">
+                        <h3 class="font-bold text-xl mb-2">Senderismo en el Monte del Destino</h3>
+                        <p class="text-gray-600">Acompáñanos en una emocionante caminata hasta la cima del Monte del
+                            Destino, un lugar lleno de historia y leyenda.</p>
+                        <p class="text-gray-500 text-sm mt-2">Publicado el 2 de noviembre por Autor</p>
+                        <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl">
+                    <img src="imgs/rivendel.jpg" alt="Explorando Rivendel" class="w-full h-56 object-cover">
+                    <div class="p-8">
+                        <h3 class="font-bold text-xl mb-2">Explorando Rivendel</h3>
+                        <p class="text-gray-600">Un vistazo a Rivendel, el refugio de los elfos, y las maravillas que
+                            ofrece a los visitantes.</p>
+                        <p class="text-gray-500 text-sm mt-2">Publicado el 3 de noviembre por Autor</p>
+                        <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
+                    </div>
+                </div>
+
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl">
+                    <img src="imgs/LOTR_Misty_mountains_west.jpg" alt="Las Montañas Nubladas"
+                        class="w-full h-56 object-cover">
+                    <div class="p-8">
+                        <h3 class="font-bold text-xl mb-2">Las Montañas Nubladas</h3>
+                        <p class="text-gray-600">Explora la majestuosa belleza de las Montañas Nubladas, un lugar lleno
+                            de misterios y leyendas que rodean a las criaturas que habitan en sus cumbres.</p>
+                        <p class="text-gray-500 text-sm mt-2">Publicado el 4 de noviembre por Autor</p>
+                        <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
+                    </div>
+                </div>
+
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl">
+                    <img src="imgs/Lothlorien.jpeg" alt="La belleza de Lothlórien" class="w-full h-56 object-cover">
+                    <div class="p-8">
+                        <h3 class="font-bold text-xl mb-2">La belleza de Lothlórien</h3>
+                        <p class="text-gray-600">Un recorrido por los bosques de Lothlórien, donde la magia de los elfos
+                            cobra vida.</p>
+                        <p class="text-gray-500 text-sm mt-2">Publicado el 5 de noviembre por Autor</p>
+                        <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
+                    </div>
+                </div>
+
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl">
+                    <img src="imgs/senderomuertos.jpg" alt="El Sendero de los Muertos" class="w-full h-56 object-cover">
+                    <div class="p-8">
+                        <h3 class="font-bold text-xl mb-2">El Sendero de los Muertos</h3>
+                        <p class="text-gray-600">Un recorrido por el Sendero de los Muertos, un lugar lleno de historia
+                            y misterio donde se encuentran los espíritus de los antiguos reyes.</p>
+                        <p class="text-gray-500 text-sm mt-2">Publicado el 7 de noviembre por Autor</p>
+                        <a href="#" class="text-blue-500 hover:underline mt-2 inline-block">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        <footer class="bg-[#D9CBAE] text-black p-4 mt-8">
+            <div class="container mx-auto flex flex-row justify-between items-center">
+                <div id="footer-logo" class="mb-2">
+                    <img src="imgs/klipartz.com.png" alt="Logo" class="h-20">
+                </div>
+                <div class="text-center">
+                    <p class="font-bold">© 2024 Todos los derechos reservados</p>
+                    <div class="flex justify-center space-x-4 mt-2">
+                        <a href="https://facebook.com" target="_blank" class="text-black hover:text-gray-700">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="text-black hover:text-gray-700">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="text-black hover:text-gray-700">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="text-black hover:text-gray-700">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
 </body>
-
 </html>
