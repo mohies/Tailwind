@@ -54,7 +54,7 @@
 
                 <!-- Insertar imágenes adicionales -->
                 <figure class="my-6">
-                    <img src="imgs/elfos-lothlorien.jpg" alt="Elfos en Lothlórien" class="w-full h-60 object-cover rounded-lg shadow-md">
+                    <img src="imgs/loselfosbosques.jpg" alt="Elfos en Lothlórien" class="w-full h-80 rounded-lg shadow-md">
                 </figure>
 
                 <p>Los Elfos de Lothlórien, liderados por la sabia Galadriel, ofrecen un refugio de paz y serenidad en un mundo turbulento...</p>
@@ -64,8 +64,16 @@
 
             <!-- Video (si es relevante) -->
             <section class="my-6">
-                <iframe class="w-full h-64 rounded-lg shadow-lg" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Exploración de Lothlórien" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="w-full h-auto  sm:h-[400px] md:h-[600px] lg:h-[720px] xl:h-[750px] rounded-lg shadow-lg" 
+                        src="https://www.youtube.com/embed/AULuSQsNrEM" 
+                        title="Frodo y Gandalf de paseo por la comarca - El Señor de los Anillos: La comunidad del anillo" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                </iframe>
             </section>
+            
         </article>
 
         <!-- Comments Section -->
@@ -75,7 +83,7 @@
             <!-- Comentario de ejemplo -->
             <div class="mb-6">
                 <div class="flex items-start mb-4">
-                    <img src="imgs/usuario1.jpg" alt="Usuario 1" class="h-12 w-12 rounded-full mr-4">
+                    <img src="imgs/CArlos.jpg" alt="Usuario 1" class="h-12 w-12 rounded-full mr-4">
                     <div>
                         <p class="font-semibold">Juan Pérez</p>
                         <p class="text-sm text-gray-600">Hace 3 días</p>
@@ -84,7 +92,7 @@
                 </div>
 
                 <div class="flex items-start mb-4">
-                    <img src="imgs/usuario2.jpg" alt="Usuario 2" class="h-12 w-12 rounded-full mr-4">
+                    <img src="imgs/Maria.jpg" alt="Usuario 2" class="h-12 w-12 rounded-full mr-4">
                     <div>
                         <p class="font-semibold">Ana González</p>
                         <p class="text-sm text-gray-600">Hace 5 días</p>
@@ -96,7 +104,7 @@
             <!-- Formulario para dejar comentarios -->
             <div>
                 <h3 class="text-2xl font-bold mb-4">Deja tu comentario</h3>
-                <form action="#" method="POST" class="space-y-4">
+                <form  class="space-y-4">
                     <textarea name="comment" placeholder="Escribe tu comentario aquí..." rows="5" class="w-full border p-3 rounded-lg bg-gray-50 text-gray-800"></textarea>
                     <button type="submit" class="w-full bg-[#D9CBAE] text-black p-3 rounded-lg">Enviar Comentario</button>
                 </form>
