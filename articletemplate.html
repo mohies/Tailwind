@@ -12,7 +12,8 @@
     <title>Artículo - Tierra Media Viajes</title>
 </head>
 
-<body class="bg-gray-100 text-gray-800" style="font-family: 'Cinzel', serif;">
+<body class="bg-gray-100 text-gray-800 font-['Cinzel']">
+
 
     <!-- Header (ya definido) -->
     <header class="bg-[#D9CBAE] text-black p-4">
@@ -43,7 +44,7 @@
             
             <!-- Imagen destacada -->
             <div class="mb-6">
-                <img src="imgs/Lothlorien.jpeg" alt="Bosques de Lothlórien" class="w-full h-80  rounded-lg shadow-lg">
+                <img src="imgs/Lothlorien.jpeg" alt="Bosques de Lothlórien" class="w-full h-full object-cover  rounded-lg shadow-lg">
             </div>
 
             <!-- Contenido del artículo -->
@@ -54,7 +55,7 @@
 
                 <!-- Insertar imágenes adicionales -->
                 <figure class="my-6">
-                    <img src="imgs/loselfosbosques.jpg" alt="Elfos en Lothlórien" class="w-full h-80 rounded-lg shadow-md">
+                    <img src="imgs/loselfosbosques.jpg" alt="Elfos en Lothlórien" class="w-full h-full rounded-lg shadow-md">
                 </figure>
 
                 <p>Los Elfos de Lothlórien, liderados por la sabia Galadriel, ofrecen un refugio de paz y serenidad en un mundo turbulento...</p>
@@ -62,7 +63,6 @@
                 <p>¿Te gustaría saber más sobre este lugar mágico y cómo vivir una experiencia única en los bosques de Lothlórien? Sigue leyendo...</p>
             </section>
 
-            <!-- Video (si es relevante) -->
             <section class="my-6">
                 <iframe class="w-full h-auto  sm:h-[400px] md:h-[600px] lg:h-[720px] xl:h-[750px] rounded-lg shadow-lg" 
                         src="https://www.youtube.com/embed/AULuSQsNrEM" 
@@ -76,11 +76,9 @@
             
         </article>
 
-        <!-- Comments Section -->
+     
         <section class="mt-12">
             <h2 class="text-3xl font-bold mb-4">Comentarios</h2>
-
-            <!-- Comentario de ejemplo -->
             <div class="mb-6">
                 <div class="flex items-start mb-4">
                     <img src="imgs/CArlos.jpg" alt="Usuario 1" class="h-12 w-12 rounded-full mr-4">
@@ -101,17 +99,17 @@
                 </div>
             </div>
 
-            <!-- Formulario para dejar comentarios -->
+            
             <div>
                 <h3 class="text-2xl font-bold mb-4">Deja tu comentario</h3>
-                <form  class="space-y-4">
+                <form  >
                     <textarea name="comment" placeholder="Escribe tu comentario aquí..." rows="5" class="w-full border p-3 rounded-lg bg-gray-50 text-gray-800"></textarea>
                     <button type="submit" class="w-full bg-[#D9CBAE] text-black p-3 rounded-lg">Enviar Comentario</button>
                 </form>
             </div>
         </section>
 
-        <!-- Artículos relacionados -->
+    
         <section class="mt-12">
             <h2 class="text-3xl font-bold mb-4">Artículos que podrían interesarte</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -134,7 +132,7 @@
         </section>
     </main>
 
-    <!-- Footer (ya definido) -->
+  
     <footer class="bg-[#D9CBAE] text-black p-4 mt-8">
         <div class="container mx-auto flex flex-row justify-between items-center">
             <div id="footer-logo" class="mb-2">
